@@ -1,5 +1,5 @@
 # Custom additions
-data/*
+data
 !data/.gitkeep
 
 # Byte-compiled / optimized / DLL files
