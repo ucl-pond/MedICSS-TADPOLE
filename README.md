@@ -1,8 +1,7 @@
-# PyCon UK: Alzheimer's Disease Challenge Hackathon
+# Disease Progression Modelling Summer School
 
-**[Frank Kelly | Sunday 14:30 | Room L](http://2017.pyconuk.org/sessions/workshops/alzheimer-s-disease-challenge-hackathon/)**
 
-> This workshop is a chance to take part in the [TADPOLE Grand Challenge](https://tadpole.grand-challenge.org/), to use data science to help identify people at risk of Alzheimer's Disease.
+> This project is a chance to take part in the [TADPOLE Grand Challenge](https://tadpole.grand-challenge.org/), to use data science to help identify people at risk of Alzheimer's Disease.
 > 
 > The TADPOLE Challenge was set up by volunteers at UCL with the aim of better understanding Alzheimer's disease using open source data. The dataset behind this is the [Alzheimer's Disease Neuro-imaging Archive](http://adni.loni.usc.edu/). In the competition, data scientists from around the world are competing for a prize fund of £30K to come up with the best model to predict outcomes of the disease in patients at risk using personal, genetic and medical imaging data.
 > 
