@@ -1,14 +1,17 @@
 # Disease Progression Modelling Summer School
 
 
-> This project is a chance to take part in the [TADPOLE Grand Challenge](https://tadpole.grand-challenge.org/), to use data science to help identify people at risk of Alzheimer's Disease.
-> 
-> The TADPOLE Challenge was set up by volunteers at UCL with the aim of better understanding Alzheimer's disease using open source data. The dataset behind this is the [Alzheimer's Disease Neuro-imaging Archive](http://adni.loni.usc.edu/). In the competition, data scientists from around the world are competing for a prize fund of £30K to come up with the best model to predict outcomes of the disease in patients at risk using personal, genetic and medical imaging data.
-> 
-> If this sounds interesting to you, then please come along and meet us on Sunday afternoon. We're hosting a hackathon version of the competition, complete with leaderboard where you'll be able to get your hands on a lot of medical data and put your ML skills to the test. If you're not a data scientist, yet still fancy contributing Python skills towards this great cause then there will be tasks tailored to each teams' skillset. Come and join us on Sunday, let's make Alzheimer's Disease history!
-> 
-> If you would like to participate in the PyCon UK hackathon but not participate in the prediction challenge (for example, your Python skills are far beyond any mere data scientist) please see [Hackathon Bonus Tasks](bonus.md). Any teams working on bonus tasks are also eligible for prizes.
+Project title: TADPOLE Competition: Prediction of Alzheimer's Evolution using Statistical Models and Machine Learning 
+Project Lead: Razvan Valentin Marinescu and Leon Aksman
+Project description: 
+Alzheimer's disease and related dementias affect more than 50 million people worldwide. No current treatments are available that can provaly cure or even slow down Alzheimer's disease; all clinical trials have so far failed to prove a disease-modifying effect. One reason why they fail is the difficulty identifying patients at early disease stages, when treatments are most likely to have an effect. The TADPOLE Challenge has been designed to find the algorithms that can best predict Alzheimer's evolution and thus help with early identification of at-risk subjects.
 
+This project will be run as a live 3-day competition, where participants will group into teams and create algorithms that will best predict the evolution of Alzheimer's patients. We will run a live Kaggle-style leaderboard where participants will make predictions and see their performance results in real time. Prizes will be offered to the teams making the best predictions.
+
+Associated resources:
+https://tadpole.grand-challenge.org/
+
+Pre-requisites: Python
 
 
 ## Background
