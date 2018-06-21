@@ -1,9 +1,11 @@
 # TADPOLE Competition: Prediction of Alzheimer's Evolution using Statistical Models and Machine Learning 
-## Disease Progression Modelling Summer School
+## CMIC Summer School 2018 
 
 
 Project Leads: Razvan Valentin Marinescu and Leon Aksman
+
 Project description: 
+
 Alzheimer's disease and related dementias affect more than 50 million people worldwide. No current treatments are available that can provaly cure or even slow down Alzheimer's disease; all clinical trials have so far failed to prove a disease-modifying effect. One reason why they fail is the difficulty identifying patients at early disease stages, when treatments are most likely to have an effect. The TADPOLE Challenge has been designed to find the algorithms that can best predict Alzheimer's evolution and thus help with early identification of at-risk subjects.
 
 This project will be run as a live 3-day competition, where participants will group into teams and create algorithms that will best predict the evolution of Alzheimer's patients. We will run a live Kaggle-style leaderboard where participants will make predictions and see their performance results in real time. Prizes will be offered to the teams making the best predictions.
