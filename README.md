@@ -13,6 +13,8 @@ This project will be run as a live 3-day competition, where participants will gr
 Associated resources:
 https://tadpole.grand-challenge.org/
 
+Marinescu, R.V., Oxtoby, N.P., Young, A.L., Bron, E.E., Toga, A.W., Weiner, M.W., Barkhof, F., Fox, N.C., Klein, S. and Alexander, D.C., 2018. TADPOLE Challenge: Prediction of Longitudinal Evolution in Alzheimer's Disease. arXiv preprint arXiv:1805.03909.
+
 Pre-requisites: Python
 
 ## Background
