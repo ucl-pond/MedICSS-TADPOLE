@@ -15,7 +15,6 @@ https://tadpole.grand-challenge.org/
 
 Pre-requisites: Python
 
-
 ## Background
 
 AD, and dementia in general, is a key challenge for 21st century healthcare. The statistics are sobering: 7% of people over 65 and 20% over 80 suffer from dementia of which AD is the most common cause. Dementia has higher health and social care costs than cancer, stroke and chronic heart disease combined. This costs are projected to be $1T in 2018 and $2T in 2030. A treatment slowing progression by 50% would reduce annual care costs by about 10%, i.e. $100B in 2018.

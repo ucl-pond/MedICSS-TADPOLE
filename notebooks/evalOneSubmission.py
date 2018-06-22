@@ -256,9 +256,9 @@ if __name__ == "__main__":
 
   forecastFileShort = forecastFile.split('/')[-1]
   if args.leaderboard:
-    if (not forecastFileShort.startswith('TADPOLE_Submission_Pycon_')) or (not forecastFileShort.endswith('.csv')):
+    if (not forecastFileShort.startswith('TADPOLE_Submission_SummerSchool2018_')) or (not forecastFileShort.endswith('.csv')):
       raise ValueError('File %s is not in the correct format: ' % forecastFileShort +
-                       'TADPOLE_Submission_Pycon_TeamName.csv')
+                       'TADPOLE_Submission_SummerSchool2018_TeamName.csv')
   else:
     if (not forecastFileShort.startswith('TADPOLE_Submission_')) or (not forecastFileShort.endswith('.csv')):
       raise ValueError('File %s is not in the correct format: TADPOLE_Submission_TeamName.csv.' % forecastFileShort)
@@ -268,11 +268,11 @@ if __name__ == "__main__":
     Wrong file name! First rename the submission file
     ''' + forecastFileShort + r'''
     to
-    TADPOLE_Submission_Pycon_<YourTeamName><Index>.csv
+    TADPOLE_Submission_SummerSchool2018_<YourTeamName><Index>.csv
 
     Examples:
-      TADPOLE_Submission_Pycon_PyHackers1.csv (first submission)
-      TADPOLE_Submission_Pycon_PowerRangers3.csv (third submission)
+      TADPOLE_Submission_SummerSchool2018_PyHackers1.csv (first submission)
+      TADPOLE_Submission_SummerSchool2018_PowerRangers3.csv (third submission)
 
     ''')
 

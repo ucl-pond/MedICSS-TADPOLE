@@ -6,10 +6,10 @@ leaderboard:
 	# Then generate a simple forecast from the training data, and save it as TADPOLE_Submission_Pycon_TeamName1.csv ...
 	# In TADPOLE_SimpleForecast1.py, you should replace TeamName1 with your team name and submission index,
 	# e.g., TADPOLE_Submission_Leaderboard_TeamAwesome3.csv
-	python3 TADPOLE_SimpleForecast1.py
+	PYTHONPATH=$$PYTHONPATH:.. python3 ../tadpole/forecast-simple.py
 
 	# Evaluate the user forecasts from TADPOLE_Submission_Leaderboard_TeamName1.csv against TADPOLE_LB4_dummy.csv using the evaluation function
-	python3 evalOneSubmission.py --leaderboard --d4File ../data/TADPOLE_LB4_dummy.csv --forecastFile 	../data/TADPOLE_Submission_Pycon_TeamName1.csv
+	python3 evalOneSubmission.py --leaderboard --d4File ../data/TADPOLE_LB4_dummy.csv --forecastFile 	../data/TADPOLE_Submission_SummerSchool2018_TeamName1.csv
 
 	# Submit (renamed version of) TADPOLE_Submission_Leaderboard_TeamName1.csv
 	# to TADPOLE website via the Submit page: https://tadpole.grand-challenge.org/submit/
