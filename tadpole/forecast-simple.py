@@ -1,9 +1,14 @@
+# import sys
+# sys.path.append('..')
+
+
 from os.path import join
 
 from tadpole.io import load_tadpole_data, write_submission_table
 from tadpole.validation import get_test_subjects
 from tadpole.submission import create_submission_table
 from tadpole.models.simple import create_prediction
+
 
 # Script requires that TADPOLE_D1_D2.csv is in the parent directory.
 # Change if necessary.
