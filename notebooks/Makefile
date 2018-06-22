@@ -3,7 +3,7 @@ leaderboard:
 	# First generate the leaderboard datasets LB1 (full training), LB2 (selection of subjects for prediction) and LB4 (dummy test set)
 	python3 makeLeaderboardDataset.py --inputFolder ../data --outputFolder ../data
 
-	# Then generate a simple forecast from the training data, and save it as TADPOLE_Submission_Pycon_TeamName1.csv ...
+	# Then generate a simple forecast from the training data, and save it as TADPOLE_Submission_SummerSchool2018_TeamName1.csv ...
 	# In TADPOLE_SimpleForecast1.py, you should replace TeamName1 with your team name and submission index,
 	# e.g., TADPOLE_Submission_Leaderboard_TeamAwesome3.csv
 	PYTHONPATH=$$PYTHONPATH:.. python3 ../tadpole/forecast-simple.py
