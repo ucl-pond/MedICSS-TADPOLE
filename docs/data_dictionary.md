@@ -1,4 +1,4 @@
-# Alzheimer's Disease Challenge Hackathon: Full Data Dictionary
+# TADPOLE: Full Data Dictionary
 
 For a high level summary of the datasets, please see [README.md](docs/README.md).
 
