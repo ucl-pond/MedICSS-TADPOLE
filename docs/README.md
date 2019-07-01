@@ -1,13 +1,12 @@
-# Alzheimer's Disease Challenge Hackathon: Datasets
+# TADPOLE Datasets
 
-There are two data sets that have been compiled from raw ADNI data for the PyCon UK 2017 Alzheimer's Challenge Hackathon.
-
+There are two data sets that have been compiled from raw ADNI data for the MedICSS 2019 TADPOLE project.
 
 
 ## LB1_LB2: Longitudinal training set
 > Longitudinal measurements (i.e. over multiple visits) with associated outcomes (i.e. labelled training set) compiled from the entire ADNI history. Contains all individuals that have provided data in at least two visits (different dates) across ADNI1, ADNI GO and ADNI2 **up until May 2010**. Data from sources such as MR & PET imaging, cognitive tests, CSF biomarkers and clinical assessment have been processed using standard ADNI data pipelines.
 > 
-> Individuals flagged under the `LB2` column are rollover individuals who will be participating in ADNI3. This is the population for whom TADPOLE predictions should be made. For the PyCon UK hackathon, predicted outcomes will be evaluated against a held-out test set (i.e. recent visits from LB2 rollover patients). For the wider TADPOLE Challenge, predicted outcomes will be evaluated against ADNI3 rollovers once this data is collected in 2018.
+> Individuals flagged under the `LB2` column are rollover individuals who will be participating in ADNI3. This is the population for whom TADPOLE predictions should be made. For MedICSS2019, predicted outcomes will be evaluated against a held-out test set (i.e. recent visits from LB2 rollover patients). For the wider TADPOLE Challenge, predicted outcomes are evaluated against ADNI3 rollovers as this data is collected in 2018 and beyond.
 
 For more information including a full data dictionary, please see [data_dictionary.md](data_dictionary.md) or you can download the data dictionary in CSV format [here](tadpole_data_dictionary.csv).
 
@@ -25,7 +24,7 @@ The columns for the LB4 test set are identical to those used for LB1_LB2, i.e. p
 
 ### TADPOLE specific features
 - `D1`, `D2` and `LB1` columns can be ignored.
-- `LB2` denotes whether this participant exists in the `LB4` hackathon test set.
+- `LB2` denotes whether this participant exists in the `LB4` test set.
 - `DXCHANGE` codes clinical status 1=Stable:NL to NL, 2=Stable:MCI to MCI, 3=Stable:AD to AD, 4=Conv:NL to MCI, 5=Conv:MCI to AD, 6=Conv:NL to AD, 7=Rev:MCI to NL, 8=Rev:AD to MCI, 9=Rev:AD to NL, -1=Not available |
 
 
