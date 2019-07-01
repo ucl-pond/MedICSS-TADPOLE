@@ -1,8 +1,8 @@
 # TADPOLE Competition: Prediction of Alzheimer's Evolution using Statistical Models and Machine Learning 
-## CMIC Summer School 2018 
+## CMIC Summer School 2019
 
 
-Project Leads: Razvan Valentin Marinescu and Leon Aksman
+Project Leads: Neil Oxtoby and Leon Aksman (and Razvan Valentin Marinescu for the [2018 version](https://github.com/mrazvan22/disProgModSummerSchool))
 
 Project description: 
 
