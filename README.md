@@ -41,7 +41,7 @@ Your challenge is to predict future measurements from these individuals and subm
 
 To find out more about TADPOLE and current approaches to predicting AD, please see the [TADPOLE website](https://tadpole.grand-challenge.org/background/).
 
-![TADPOLE dataset overview](https://tadpole.grand-challenge.org/site/TADPOLE/serve/public_html/images/Figure_TrainForecast_new.png/)
+![TADPOLE dataset overview](https://grand-challenge-public.s3.amazonaws.com/f/challenge/141/3250e5f9-b9de-4c59-ac45-9f6587f50b30/Figure_TrainForecast_new.png)
 
 
 
