@@ -74,9 +74,7 @@ Since we do not know the exact time of future data acquisitions for any individu
 
 The table below summarises the format of the forecasts using the above examples:
 
-![TADPOLE sample forecasts](https://tadpole.grand-challenge.org/site/TADPOLE/serve/public_html/images/sampleforecast_v1.png/)
-
-
+![TADPOLE sample forecasts](https://grand-challenge-public.s3.amazonaws.com/f/challenge/141/5bab1e47-4682-4060-b460-f74097d66a39/sampleforecast_v1.png)
 
 ## Data Sets
 
