@@ -1,19 +1,19 @@
-# TADPOLE Competition: Prediction of Alzheimer's Evolution using Statistical Models and Machine Learning 
-## CMIC Summer School 2019
+# TADPOLE Challenge: Prediction of Alzheimer's disease evolution using statistical models and machine learning 
+## UCL Medical Image Computing Summer School: MedICSS 2020
 
 
-Project Leads: Neil Oxtoby and Leon Aksman (and Razvan Valentin Marinescu for the [2018 version](https://github.com/mrazvan22/disProgModSummerSchool))
+Project Leads: Leon Aksman and Neil Oxtoby (see also the [2019 version](https://github.com/noxtoby/MedICSS2019-TADPOLE) and [2018 version](https://github.com/mrazvan22/disProgModSummerSchool))
 
 Project description: 
 
-Alzheimer's disease and related dementias affect more than 50 million people worldwide. No current treatments are available that can provaly cure or even slow down Alzheimer's disease; all clinical trials have so far failed to prove a disease-modifying effect. One reason why they fail is the difficulty identifying patients at early disease stages, when treatments are most likely to have an effect. The TADPOLE Challenge has been designed to find the algorithms that can best predict Alzheimer's evolution and thus help with early identification of at-risk subjects.
+Alzheimer's disease (AD) and related dementias affect more than 50 million people worldwide. No current treatments are available that can provaly cure or even slow down AD; all clinical trials have so far failed to prove a disease-modifying effect. One reason why they fail is the difficulty identifying patients at early disease stages, when treatments are most likely to have an effect. The AD Prediction Of Longitudinal Evolution (TADPOLE) Challenge has been designed to find the algorithms that can best predict AD evolution and thus help with early identification of at-risk subjects.
 
-This project will be run as a live 3-day competition, where participants will group into teams and create algorithms that will best predict the evolution of Alzheimer's patients. We will run a live Kaggle-style leaderboard where participants will make predictions and see their performance results in real time. Prizes will be offered to the teams making the best predictions.
+This project will be run as a live multi-day competition, where participants will group into teams and create algorithms that will best predict the evolution of real-life participants (anonymous, of course), including probable AD patients, healthy controls, and elderly individuals at risk of AD. We will run a live Kaggle-style leaderboard where participants will make predictions and see their performance results in real time.
 
 Associated resources:
-https://tadpole.grand-challenge.org/
-
-Marinescu, R.V., Oxtoby, N.P., Young, A.L., Bron, E.E., Toga, A.W., Weiner, M.W., Barkhof, F., Fox, N.C., Klein, S. and Alexander, D.C., 2018. TADPOLE Challenge: Prediction of Longitudinal Evolution in Alzheimer's Disease. arXiv preprint arXiv:1805.03909.
+- Challenge website: https://tadpole.grand-challenge.org/
+- Challenge description manuscript: [arXiv:1805.03909](https://arxiv.org/abs/1805.03909)
+- Challenge results manuscript: [arXiv:2002.03419](https://arxiv.org/abs/2002.03419)
 
 Pre-requisites: Python
 
@@ -31,13 +31,13 @@ TADPOLE challenges you to identify what data and algorithms best predict AD prog
 
 Data science will play a key role in the endeavour to learn more about the causes of Alzheimer’s Disease, currently believed to be a combination of genetic and environmental factors. The goal of [The Alzheimer's Disease Prediction Of Longitudinal Evolution (TADPOLE) Challenge)](https://tadpole.grand-challenge.org/) is to identify which people within an age group at risk of AD (Alzheimer's Disease) will start to show symptoms in the short to medium term (1-5 years). It focuses on "rollover individuals" (patients coming from a previous phase) in the Alzheimer's Disease Neuroimaging Initiative (ADNI) study. The challenge is to use historical measurements from these individuals to forecast future measurements. The following scientific questions motivate the challenge:
 
-- How predictable is progression to Alzheimer’s Disease (AD) in at-risk individuals?
+- How predictable is progression to AD in at-risk individuals?
 - Which data, processing pipelines, and predictive models best predict future AD progression?
 - Can we use such methods to improve cohort selection for clinical trials?
 
 The TADPOLE datasets contain a list of individuals at an age that puts them at risk of AD, with associated measurements to inform forecasts (from imaging, psychology, demographics, genetics, etc.). Each individual has agreed to a follow-on assessment.
 
-Your challenge is to predict future measurements from these individuals and submit your predictions before the submission deadline of 15th November 2017. Once future measurements are available, TADPOLE will evaluate each forecast against them, collate and compare results, publish the results, award prizes and, ultimately, write up a scientific paper co-authored with active participants. The competition is open to anyone: from statisticians to neurologists; from industry or academic research; from professor to high-school student.
+Your challenge is to predict future measurements from these individuals and submit your predictions for evaluation. The original challenge used future measurements for evaluating these forecasts (the data was not available until long after the original challenge submission deadline in Nov 2017), but this deadline has since passed and we will perform the actual evaluation during this summer school project.
 
 To find out more about TADPOLE and current approaches to predicting AD, please see the [TADPOLE website](https://tadpole.grand-challenge.org/background/).
 
@@ -104,7 +104,7 @@ Many other open data sets are available that might serve as useful additional tr
 
 ## TADPOLE Submission Types & Prize Categories
 
-> N.B. These conditions and prizes are only relevant for TADPOLE entries, not for the PyCon UK Hackathon. **PLEASE SEE THE [TADPOLE PYCON PAGE](https://tadpole.grand-challenge.org/pyconuk/) FOR DETAILS ON EVALUATION METRICS FOR THE PYCON HACKATHON. YOU WILL NEED TO [REGISTER WITH TADPOLE](https://tadpole.grand-challenge.org/accounts/signin/?next=/) IN ORDER TO SUBMIT YOUR ENTRY FOR THE PYCON HACKATHON.**
+> N.B. These conditions and prizes were relevant for TADPOLE entries only, not for the PyCon UK Hackathon. **PLEASE SEE THE [TADPOLE PYCON PAGE](https://tadpole.grand-challenge.org/pyconuk/) FOR DETAILS ON EVALUATION METRICS FOR THE PYCON HACKATHON. YOU WILL NEED TO [REGISTER WITH TADPOLE](https://tadpole.grand-challenge.org/accounts/signin/?next=/) IN ORDER TO SUBMIT YOUR ENTRY FOR THE PYCON HACKATHON.**
 
 There are two ways to enter the TADPOLE Grand Challenge: a [simple entry](https://tadpole.grand-challenge.org/site/tadpole/serve/public_html/TADPOLE_Simple_Submission_TeamName.xlsx) or a [full entry](https://tadpole.grand-challenge.org/site/tadpole/serve/public_html/TADPOLE_Simple_Submission_TeamName.xlsx).
 
