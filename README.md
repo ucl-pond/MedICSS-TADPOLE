@@ -1,14 +1,16 @@
-# TADPOLE Challenge: Prediction of Alzheimer's disease evolution using statistical models and machine learning 
-## UCL Medical Image Computing Summer School: MedICSS 2020
+# UCL MedICSS _TADPOLE_ project: Centre for *M*edical *I*mage *C*omputing *S*ummer *S*chool
+## TADPOLE Challenge: Prediction of Alzheimer's disease evolution using statistical models and machine learning 
 
-
-Project Leads: Leon Aksman and Neil Oxtoby (see also the [2019 version](https://github.com/noxtoby/MedICSS2019-TADPOLE) and [2018 version](https://github.com/mrazvan22/disProgModSummerSchool))
+Project Leads:
+- 2021: [Neil Oxtoby](https://github.com/noxtoby) and Mar Garcia
+- [2020](https://github.com/noxtoby/MedICSS2020-TADPOLE) and [2019](https://github.com/noxtoby/MedICSS2019-TADPOLE): Leon Aksman and Neil Oxtoby 
+- [2018](https://github.com/mrazvan22/disProgModSummerSchool): [Razvan Marinescu](https://github.com/mrazvan22)
 
 Project description: 
 
-Alzheimer's disease (AD) and related dementias affect more than 50 million people worldwide. No current treatments are available that can provaly cure or even slow down AD; all clinical trials have so far failed to prove a disease-modifying effect. One reason why they fail is the difficulty identifying patients at early disease stages, when treatments are most likely to have an effect. The AD Prediction Of Longitudinal Evolution (TADPOLE) Challenge has been designed to find the algorithms that can best predict AD evolution and thus help with early identification of at-risk subjects.
+Alzheimer's disease (AD) and related dementias affect more than 50 million people worldwide. No current treatments are available that can provaly cure or even slow down AD; all clinical trials have so far failed to prove a disease-modifying effect. One reason why they fail is the difficulty identifying patients at early disease stages, when treatments are most likely to have an effect. The AD Prediction Of Longitudinal Evolution (TADPOLE) Challenge is an open community challenge designed to find the algorithms that can best predict AD evolution and thus help with early identification of at-risk subjects.
 
-This project will be run as a live multi-day competition, where participants will group into teams and create algorithms that will best predict the evolution of real-life participants (anonymous, of course), including probable AD patients, healthy controls, and elderly individuals at risk of AD. We will run a live Kaggle-style leaderboard where participants will make predictions and see their performance results in real time.
+In MedICSS this project may be run as a live multi-day competition, where participants will group into teams and create algorithms to predict the evolution of real-life (but anonymous) elderly people from AD patients to healthy volunteers. We might run a live Kaggle-style leaderboard where participants will make predictions and see their performance results in real time.
 
 Associated resources:
 - Challenge website: https://tadpole.grand-challenge.org/
